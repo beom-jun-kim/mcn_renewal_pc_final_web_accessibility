@@ -1,0 +1,789 @@
+<!--@layout(/layout/basic/main.html)-->
+
+<section id="main">
+  <div class="mainWrap">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="video">
+                <div class="video-ratio" style="padding-top: 56.25%; position: relative">
+                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/763687466?h=9d46bcebe9?mute=1&autoplay=1&rel=0&loop=1&background=1" width="640" height="360" frameborder="0" allowfullscreen style=" position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+                    <a href="/product/cjl-60173layer-mp9-겨울-방풍자켓-블랙방풍팬츠-세트-체감온도-014레이싱핏/1697/category/123/display/1/"></a>
+                </div>
+            </div>
+          <div class="desc">
+            <p>RIDING LIFE</p>
+            <p>엠씨엔은 멈추지 않는다</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+            <a href="/category/방한방풍-세트/123/">
+                <img src="/web/img/23_visual/main_visual/main_visual_221115_01.jpg" alt="겨울에도멋지게,퍼펙트핏"/>
+                <div class="desc">
+                    <p>WINTER 0~10℃</p>
+                    <p>겨울에도 멋지게, 퍼펙트 핏</p>
+                </div>
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="/category/best-풀-세트/165/">
+                <img src="/web/img/23_visual/main_visual/main_visual_221115_02.jpg" alt="변덕스러운날씨제어"/>
+                <div class="desc">
+                  <p>WINTER 15~25℃</p>
+                  <p>변덕스러운 날씨 제어</p>
+                </div>
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="/category/로라-세트/152/">
+                <img src="/web/img/23_visual/main_visual/main_visual_221115_03.jpg" alt="집에서도흐트러짐없이"/>
+                <div class="desc">
+                  <p>INDOOR ROLLER</p>
+                  <p>집에서도 흐트러짐 없이</p>
+                </div>
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="/category/바람막이-자켓/125/">
+                <img src="/web/img/23_visual/main_visual/main_visual_221115_04.jpg" alt="윈드브레이커라인업"/>
+                <div class="desc">
+                  <p>Cut-off</p>
+                  <p>윈드 브레이커 라인업</p>
+                </div>
+            </a>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<section id="keywords">
+  <div class="inner">
+    <div class="title"><a href="#" class="t1 line">TREND KEYWORD</a></div>
+    <div class="keywordBox" module="search_hotkeyword">
+      <ul class="keyword">
+        <li><a href="{$hot_keyword_url}"># {$hot_keyword_name}</a></li>
+        <li><a href="{$hot_keyword_url}"># {$hot_keyword_name}</a></li>
+        <li><a href="{$hot_keyword_url}"># {$hot_keyword_name}</a></li>
+        <li><a href="{$hot_keyword_url}"># {$hot_keyword_name}</a></li>
+        <li><a href="{$hot_keyword_url}"># {$hot_keyword_name}</a></li>
+        <li><a href="{$hot_keyword_url}"># {$hot_keyword_name}</a></li>
+      </ul>
+      <ul class="keyword">
+        <li><a href="{$hot_keyword_url}"># {$hot_keyword_name}</a></li>
+        <li><a href="{$hot_keyword_url}"># {$hot_keyword_name}</a></li>
+        <li><a href="{$hot_keyword_url}"># {$hot_keyword_name}</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- bestItem -->
+<section id="bestItem">
+  <div class="inner">
+    <div class="title"><a href="#" class="t1 line">BEST OF MCN</a></div>
+    <div class="bestTab">
+      <ul class="bestTabNavi">
+        <li><a href="#bestTab01">NEW</a></li>
+        <li><a href="#bestTab02">WEEKLY</a></li>
+        <li><a href="#bestTab03">SESSON</a></li>
+      </ul>
+      <div class="bestTabCon">
+        <div id="bestTab01" module="product_listmain_8">
+          <!--
+                  $count = 5
+                  $basket_result = /product/add_basket.html
+                  $basket_option = /product/basket_option.html
+                  $moreview = yes
+                  $cache = no
+              -->
+          <ul class="prdList">
+            <li id="anchorBoxId_{$product_no}">
+              <div class="prdList__item">
+                <div class="thumbnail">
+                  <a href="{$link_product_detail}"
+                    ><img
+                      src="{$image_medium}"
+                      id="{$image_medium_id}"
+                      alt="{$seo_alt_tag}"
+                      loading="lazy"
+                      width="100%"
+                      height="100%" /><span module="product_Imagestyle"
+                      ><span
+                        class="prdIcon {$icon_class_name}"
+                        style="background-image: url('{$icon_url}')"
+                      ></span></span
+                  ></a>
+                  <div class="icon__box displaynone">
+                    <span class="wish">{$list_wish_icon}</span>
+                    <span class="cart">{$basket_icon}</span>
+                  </div>
+                  <span class="benefit">{$benefit_icons}</span>
+                </div>
+                <div
+                  class="description"
+                  ec-data-custom="{$product_custom}"
+                  ec-data-price="{$product_price}"
+                >
+                  <strong class="name"
+                    ><a
+                      href="{$link_product_detail}"
+                      class="{$product_name_display|display}"
+                      ><span class="title {$product_name_title_display|display}"
+                        >{$product_name_title} :</span
+                      >
+                      {$product_name}</a
+                    ></strong
+                  >
+                  <ul module="product_ListItem" class="spec">
+                    <li class="{$item_display|display}">
+                      <strong class="title {$item_title_display|display}"
+                        >{$item_title} :</strong
+                      >
+                      {$item_content}
+                    </li>
+                    <li class="{$item_display|display}">
+                      <strong class="title {$item_title_display|display}"
+                        >{$item_title} :</strong
+                      >
+                      {$item_content}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li id="anchorBoxId_{$product_no}">
+              <div class="prdList__item">
+                <div class="thumbnail">
+                  <a href="{$link_product_detail}"
+                    ><img
+                      src="{$image_medium}"
+                      id="{$image_medium_id}"
+                      alt="{$seo_alt_tag}"
+                      loading="lazy"
+                      width="100%"
+                      height="100%" /><span module="product_Imagestyle"
+                      ><span
+                        class="prdIcon {$icon_class_name}"
+                        style="background-image: url('{$icon_url}')"
+                      ></span></span
+                  ></a>
+                  <div class="icon__box displaynone">
+                    <span class="wish">{$list_wish_icon}</span>
+                    <span class="cart">{$basket_icon}</span>
+                  </div>
+                  <span class="benefit">{$benefit_icons}</span>
+                </div>
+                <div
+                  class="description"
+                  ec-data-custom="{$product_custom}"
+                  ec-data-price="{$product_price}"
+                >
+                  <strong class="name"
+                    ><a
+                      href="{$link_product_detail}"
+                      class="{$product_name_display|display}"
+                      ><span class="title {$product_name_title_display|display}"
+                        >{$product_name_title} :</span
+                      >
+                      {$product_name}</a
+                    ></strong
+                  >
+                  <ul module="product_ListItem" class="spec">
+                    <li class="{$item_display|display}">
+                      <strong class="title {$item_title_display|display}"
+                        >{$item_title} :</strong
+                      >
+                      {$item_content}
+                    </li>
+                    <li class="{$item_display|display}">
+                      <strong class="title {$item_title_display|display}"
+                        >{$item_title} :</strong
+                      >
+                      {$item_content}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div id="bestTab02" module="product_listmain_1">
+          <!--
+                  $count = 5
+                  $basket_result = /product/add_basket.html
+                  $basket_option = /product/basket_option.html
+                  $moreview = yes
+                  $cache = no
+              -->
+          <ul class="prdList">
+            <li id="anchorBoxId_{$product_no}">
+              <div class="prdList__item">
+                <div class="thumbnail">
+                  <a href="{$link_product_detail}"
+                    ><img
+                      src="{$image_medium}"
+                      id="{$image_medium_id}"
+                      alt="{$seo_alt_tag}"
+                      loading="lazy"
+                      width="100%"
+                      height="100%" /><span module="product_Imagestyle"
+                      ><span
+                        class="prdIcon {$icon_class_name}"
+                        style="background-image: url('{$icon_url}')"
+                      ></span></span
+                  ></a>
+                  <div class="icon__box displaynone">
+                    <span class="wish">{$list_wish_icon}</span>
+                    <span class="cart">{$basket_icon}</span>
+                  </div>
+                  <span class="benefit">{$benefit_icons}</span>
+                </div>
+                <div
+                  class="description"
+                  ec-data-custom="{$product_custom}"
+                  ec-data-price="{$product_price}"
+                >
+                  <strong class="name"
+                    ><a
+                      href="{$link_product_detail}"
+                      class="{$product_name_display|display}"
+                      ><span class="title {$product_name_title_display|display}"
+                        >{$product_name_title} :</span
+                      >
+                      {$product_name}</a
+                    ></strong
+                  >
+                  <ul module="product_ListItem" class="spec">
+                    <li class="{$item_display|display}">
+                      <strong class="title {$item_title_display|display}"
+                        >{$item_title} :</strong
+                      >
+                      {$item_content}
+                    </li>
+                    <li class="{$item_display|display}">
+                      <strong class="title {$item_title_display|display}"
+                        >{$item_title} :</strong
+                      >
+                      {$item_content}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li id="anchorBoxId_{$product_no}">
+              <div class="prdList__item">
+                <div class="thumbnail">
+                  <a href="{$link_product_detail}"
+                    ><img
+                      src="{$image_medium}"
+                      id="{$image_medium_id}"
+                      alt="{$seo_alt_tag}"
+                      loading="lazy"
+                      width="100%"
+                      height="100%" /><span module="product_Imagestyle"
+                      ><span
+                        class="prdIcon {$icon_class_name}"
+                        style="background-image: url('{$icon_url}')"
+                      ></span></span
+                  ></a>
+                  <div class="icon__box displaynone">
+                    <span class="wish">{$list_wish_icon}</span>
+                    <span class="cart">{$basket_icon}</span>
+                  </div>
+                  <span class="benefit">{$benefit_icons}</span>
+                </div>
+                <div
+                  class="description"
+                  ec-data-custom="{$product_custom}"
+                  ec-data-price="{$product_price}"
+                >
+                  <strong class="name"
+                    ><a
+                      href="{$link_product_detail}"
+                      class="{$product_name_display|display}"
+                      ><span class="title {$product_name_title_display|display}"
+                        >{$product_name_title} :</span
+                      >
+                      {$product_name}</a
+                    ></strong
+                  >
+                  <ul module="product_ListItem" class="spec">
+                    <li class="{$item_display|display}">
+                      <strong class="title {$item_title_display|display}"
+                        >{$item_title} :</strong
+                      >
+                      {$item_content}
+                    </li>
+                    <li class="{$item_display|display}">
+                      <strong class="title {$item_title_display|display}"
+                        >{$item_title} :</strong
+                      >
+                      {$item_content}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div id="bestTab03" module="product_listmain_10">
+          <!--
+                  $count = 5
+                  $basket_result = /product/add_basket.html
+                  $basket_option = /product/basket_option.html
+                  $moreview = yes
+                  $cache = no
+              -->
+          <ul class="prdList">
+            <li id="anchorBoxId_{$product_no}">
+              <div class="prdList__item">
+                <div class="thumbnail">
+                  <a href="{$link_product_detail}"
+                    ><img
+                      src="{$image_medium}"
+                      id="{$image_medium_id}"
+                      alt="{$seo_alt_tag}"
+                      loading="lazy"
+                      width="100%"
+                      height="100%" /><span module="product_Imagestyle"
+                      ><span
+                        class="prdIcon {$icon_class_name}"
+                        style="background-image: url('{$icon_url}')"
+                      ></span></span
+                  ></a>
+                  <div class="icon__box displaynone">
+                    <span class="wish">{$list_wish_icon}</span>
+                    <span class="cart">{$basket_icon}</span>
+                  </div>
+                  <span class="benefit">{$benefit_icons}</span>
+                </div>
+                <div
+                  class="description"
+                  ec-data-custom="{$product_custom}"
+                  ec-data-price="{$product_price}"
+                >
+                  <strong class="name"
+                    ><a
+                      href="{$link_product_detail}"
+                      class="{$product_name_display|display}"
+                      ><span class="title {$product_name_title_display|display}"
+                        >{$product_name_title} :</span
+                      >
+                      {$product_name}</a
+                    ></strong
+                  >
+                  <ul module="product_ListItem" class="spec">
+                    <li class="{$item_display|display}">
+                      <strong class="title {$item_title_display|display}"
+                        >{$item_title} :</strong
+                      >
+                      {$item_content}
+                    </li>
+                    <li class="{$item_display|display}">
+                      <strong class="title {$item_title_display|display}"
+                        >{$item_title} :</strong
+                      >
+                      {$item_content}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li id="anchorBoxId_{$product_no}">
+              <div class="prdList__item">
+                <div class="thumbnail">
+                  <a href="{$link_product_detail}"
+                    ><img
+                      src="{$image_medium}"
+                      id="{$image_medium_id}"
+                      alt="{$seo_alt_tag}"
+                      loading="lazy"
+                      width="100%"
+                      height="100%" /><span module="product_Imagestyle"
+                      ><span
+                        class="prdIcon {$icon_class_name}"
+                        style="background-image: url('{$icon_url}')"
+                      ></span></span
+                  ></a>
+                  <div class="icon__box displaynone">
+                    <span class="wish">{$list_wish_icon}</span>
+                    <span class="cart">{$basket_icon}</span>
+                  </div>
+                  <span class="benefit">{$benefit_icons}</span>
+                </div>
+                <div
+                  class="description"
+                  ec-data-custom="{$product_custom}"
+                  ec-data-price="{$product_price}"
+                >
+                  <strong class="name"
+                    ><a
+                      href="{$link_product_detail}"
+                      class="{$product_name_display|display}"
+                      ><span class="title {$product_name_title_display|display}"
+                        >{$product_name_title} :</span
+                      >
+                      {$product_name}</a
+                    ></strong
+                  >
+                  <ul module="product_ListItem" class="spec">
+                    <li class="{$item_display|display}">
+                      <strong class="title {$item_title_display|display}"
+                        >{$item_title} :</strong
+                      >
+                      {$item_content}
+                    </li>
+                    <li class="{$item_display|display}">
+                      <strong class="title {$item_title_display|display}"
+                        >{$item_title} :</strong
+                      >
+                      {$item_content}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="activity">
+  <div class="activitySlide">
+    <div>
+      <a href="/category/세트상품/96/"><img
+          src="/web/img/23_visual/serve_visual/serve_visual_mtb_221116.jpg"
+          alt="MTB산을온몸으로느끼다"
+        /></a>
+        <div class="inner">
+            <div class="desc">
+            <p class="text">
+                <span>
+                [ MTB ]<br />
+                산을 온몸으로 느끼다!</span>
+                <br />
+                <br />
+                턱까지 차오르는 숨결, 까마득한 오르막,<br />
+                바람을 가르며 빠른 속도로 하강하는 아찔한 즐거움<br />
+                #XC #트레일 #올마운틴 #다운힐
+            </p>
+            <div class="relPrdBox">
+                <div class="relPrd">
+                    <a href="/product/cjlrib-track트랙-기모-긴팔져지부드럽고-따뜻한-기모안감의-긴팔저지간절기용1525/2116/category/102/display/1/"><img src="/web/img/23_visual/serve_visual/serve_visual_mtb_221116_01.jpg" alt="MTB상품1"/></a>
+                </div>
+                <div class="relPrd">
+                    <a href="/product/cjl-merlin멀린-기모-긴팔져지부드럽고-따뜻한-기모안감의-긴팔저지간절기용1525/2113/category/102/display/1/"><img src="/web/img/23_visual/serve_visual/serve_visual_mtb_221116_02.jpg" alt="MTB상품2"/></a>
+                </div>
+                <div class="relPrd">
+                    <a href="/product/cjl-8012-metalic-red메탈릭-레드-기모-긴팔져지부드럽고-따뜻한-기모안감의-긴팔저지간절기용1525/1880/category/102/display/1/"><img src="/web/img/23_visual/serve_visual/serve_visual_mtb_221116_03.jpg" alt="MTB상품3"/></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div>
+      <a href="/category/세트상품/96/"><img
+          src="/web/img/23_visual/serve_visual/serve_visual_road_221116.jpg"
+          alt="로드자전거잘포장된도로를빠르게질주"
+        /></a>
+        <div class="inner">
+            <div class="desc">
+            <p class="text">
+                <span>
+                [ 로드 자전거 ]<br />잘 포장된 도로를 빠르게 질주</span>
+                <br />
+                <br />
+                도심 속에서 가볍게 즐길 수 있는 로드 자전거<br />
+                빠른 속도로 달리다 보면 어느덧 멋진 풍경에 닿아 있습니다. <br />
+                #로드자전거 #라이딩 #사이클링
+            </p>
+            <div class="relPrdBox">
+                <div class="relPrd">
+                    <a href="/product/cjlplus85-pelotonn펠로톤-방풍·발수-긴팔져지겨울용-체감온도-010동계-방한-자전거-저지-자켓-사이클-라이딩-기모/2614/category/102/display/1/"><img
+                            src="/web/img/23_visual/serve_visual/serve_visual_road_221116_01.jpg"
+                            alt="로드자전거상품1"
+                        /></a>
+                </div>
+                <div class="relPrd">
+                    <a href="/product/cjlplus85-monokrome모노크롬-방풍·발수-긴팔져지겨울용-체감온도-010동계-방한-자전거-저지-자켓-사이클-라이딩-/2616/category/102/display/1/"><img
+                            src="/web/img/23_visual/serve_visual/serve_visual_road_221116_02.jpg"
+                            alt="로드자전거상품2"
+                        /></a>
+                </div>
+                <div class="relPrd">
+                    <a href="/product/cjlplus85-gray-scale그레이-스케일-방풍·발수-긴팔져지겨울용-체감온도-010동계-방한-자전거-저지-자켓-사이클-/2618/category/102/display/1/"><img
+                            src="/web/img/23_visual/serve_visual/serve_visual_road_221116_03.jpg"
+                            alt="로드자전거상품3"
+                        /></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div>
+      <a href="/category/바라클라바/237/"><img
+          src="/web/img/23_visual/serve_visual/serve_visual_Baraklava_221116.jpg"
+          alt="BARAKLAVA뉴트로열풍속잇템"
+        /></a>
+        <div class="inner">
+          <div class="desc">
+            <p class="text">
+              <span>
+                [ BARAKLAVA ]<br />뉴트로 열풍 속 잇템</span>
+              <br />
+              <br />
+              머리와 귀, 목까지 따뜻하게 덮어주는 바라클라바<br />
+              스타일과 보온성을 모두 챙길 수 있어 추운 날씨에 필수<br />
+              #방한용품 #스키 #보드 #스포츠넥워머
+            </p>
+            <div class="relPrdBox">
+              <div class="relPrd">
+                <a href="/product/mhdwproof-trail-트레일-방풍방수-넥워머-후드마스크/2790/category/237/display/1/"><img
+                      src="/web/img/23_visual/serve_visual/serve_visual_Baraklava_221116_01.jpg"
+                      alt="BARAKLAVA상품1"
+                    /></a>
+              </div>
+              <div class="relPrd">
+                <a href="/product/mhdwproof-snow-board-스노우-보드-방풍방수-넥워머-후드마스크/2789/category/237/display/1/"><img
+                      src="/web/img/23_visual/serve_visual/serve_visual_Baraklava_221116_02.jpg"
+                      alt="BARAKLAVA상품2"
+                    /></a>
+              </div>
+              <div class="relPrd">
+                <a href="/product/mhdwproof-black-iron-블랙-아이언-방풍방수-넥워머-후드마스크/2787/category/237/display/1/"><img
+                      src="/web/img/23_visual/serve_visual/serve_visual_Baraklava_221116_03.jpg"
+                      alt="BARAKLAVA상품3"
+                    /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div>
+      <a href="/category/방한-헤어밴드/199/"><img
+          src="/web/img/23_visual/serve_visual/serve_visual_headband_221116.jpg"
+          alt="HEADBAND따뜻하고깔끔한스타일링"
+        /></a>
+        <div class="inner">
+          <div class="desc">
+            <p class="text">
+              <span>
+                [ HEAD BAND ]<br />따뜻하고 깔끔한 스타일링</span>
+              <br />
+              <br />
+              드러난 틈새는 더 추운 법, 시린 귀를 감싸는 헤어밴드<br />
+              압박없이 편안하게 맞으며, 헬멧 안에 가볍게 착용하면 OK<br />
+              #방한용품 #스포츠밴드 #헤어밴드
+            </p>
+            <div class="relPrdBox">
+              <div class="relPrd">
+                <a href="/product/mhb-pelotonn펠로톤-방한-헤어밴드귀마개기모안감-땀흡수-자외선차단-헤드밴드자전거-바이크-낚시-골프-등산-등-겨울-스포츠/2777/category/199/display/1/"><img
+                      src="/web/img/23_visual/serve_visual/serve_visual_headband_221116_01.jpg"
+                      alt="HEADBAND상품1"
+                    /></a>
+              </div>
+              <div class="relPrd">
+                <a href="/product/mhb-gray-scale그레이-스케일-방한헤어밴드귀마개기모안감-땀흡수-자외선차단-헤드밴드자전거-바이크-낚시-골프-등산-등-겨/2779/category/199/display/1/"><img
+                      src="/web/img/23_visual/serve_visual/serve_visual_headband_221116_02.jpg"
+                      alt="HEADBAND상품2"
+                    /></a>
+              </div>
+              <div class="relPrd">
+                <a href="/product/mhb-paranormal파라노말-방한헤어밴드귀마개기모안감-땀흡수-자외선차단-헤드밴드자전거-바이크-낚시-골프-등산-등-겨울-스/2781/category/199/display/1/"><img
+                      src="/web/img/23_visual/serve_visual/serve_visual_headband_221116_03.jpg"
+                      alt="HEADBAND상품3"
+                    /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div>
+      <a href="/category/바람막이-조끼질렛/139/"><img
+          src="/web/img/23_visual/serve_visual/serve_visual_vest_221116.jpg"
+          alt="사이클질렛원탑!윈드브레이커"
+        /></a>
+        <div class="inner">
+          <div class="desc">
+            <p class="text">
+              <span>
+                [ WINDBREAKER ]<br />사이클 질렛 원탑! 윈드브레이커</span>
+              <br />
+              <br />
+              공기 저항을 줄여 펄럭이지 않는 슬림핏<br />
+              바람은 가볍게 차단하고 활동성은 더 자유롭게 연출<br />
+              #스타일리시 #바람막이 #조끼
+            </p>
+            <div class="relPrdBox">
+              <div class="relPrd">
+                <a href="/product/msv-16-paranormaldtp-바람막이-조끼-질렛-파라노말공기-저항을-줄여-펄럭이지-않는-슬림-핏-바람은-가볍게-차단-/2776/category/139/display/1/"><img
+                      src="/web/img/23_visual/serve_visual/serve_visual_vest_221116_01.jpg"
+                      alt="WINDBREAKER상품1"
+                    /></a>
+              </div>
+              <div class="relPrd">
+                <a href="/product/msv-16-graffitidtp-바람막이-조끼-질렛-그라피티공기-저항을-줄여-펄럭이지-않는-슬림-핏-바람은-가볍게-차단-활동/2775/category/139/display/1/"><img
+                      src="/web/img/23_visual/serve_visual/serve_visual_vest_221116_02.jpg"
+                      alt="WINDBREAKER상품2"
+                    /></a>
+              </div>
+              <div class="relPrd">
+                <a href="/product/msv-16-contrast-bw바람막이-조끼-질렛-콘트래스트-블랙화이트공기-저항을-줄여-펄럭이지-않는-슬림-핏-바람은-가볍게/2768/category/139/display/1/"><img
+                      src="/web/img/23_visual/serve_visual/serve_visual_vest_221116_03.jpg"
+                      alt="WINDBREAKER상품3"
+                    /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section id="mcncustom">
+  <div class="inner">
+    <div class="cusImgWrap">
+      <div class="cusImgBox">
+        <a
+          href="https://mcncustom.com/category/자전거/53/"
+          target="_blank"
+        >
+          <div class="imgBox">
+            <img src="/web/img/23_visual/custom_visual/custom_visual_221117_01.jpg" alt="국내최고자전거의류주문제작시스템" />
+          </div>
+          <div class="cusBtn">
+            <p>국내 최고 자전거의류 주문제작 시스템</p>
+            <p class="btn">단체복 종류</p>
+          </div>
+        </a>
+      </div>
+      <div class="cusImgBox">
+        <a href="https://mcncustom.com/category/자전거/69/" target="_blank">
+          <div class="imgBox">
+            <img src="/web/img/23_visual/custom_visual/custom_visual_221117_02.jpg" alt="수천건의주문제작노하우" />
+          </div>
+          <div class="cusBtn">
+            <p>수천건의 주문제작 노하우</p>
+            <p class="btn">포트폴리오</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="instagramWidgetManual" style="margin-left: 1%; margin-right: 1%; width: 98%; height: 250px">
+  <!--앱을 비활성화한 뒤 삽입한 코드를 직접 삭제해야 할 수도 있습니다.-->
+</section>
+
+<section id="etc">
+  <div class="etcWrap">
+    <div class="box">
+      <a href="/company.html">
+        <div class="overlay"></div>
+        <img
+          src="/web/img/23_visual/company/company_visual_01.jpg"
+          alt="회사소개이미지"
+        />
+        <div class="desc">
+          <div class="descBox">
+            <h4>회사소개</h4>
+            <p>엠씨엔스포츠의 역사를 엿볼 수 있습니다.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="box">
+      <a href="/store.html">
+        <div class="overlay"></div>
+        <img src="/web/img/23_visual/company/company_visual_02.jpg" alt="이벤트이미지"/>
+        <div class="desc">
+          <div class="descBox">
+            <h4>전국매장</h4>
+            <p>전국에 분포된 엠씨엔 매장을 찾아보세요.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="box">
+      <a href="/lookBook.html">
+        <div class="overlay"></div>
+        <img
+          src="/web/img/23_visual/company/company_visual_03.jpg"
+          alt="룩북이미지"
+        />
+        <div class="desc">
+          <div class="descBox">
+            <h4>룩북</h4>
+            <p>각 시즌 베스트 아이템을 만나보세요.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!--@define(cmc_log)-->
+<!--@js(/js/module/product/sale_price.js)-->
+
+<style>
+  header:hover .logoWhiteMode,
+  header .logoWhiteMode.active {
+    display: none;
+  }
+
+  header:hover .xans-layout-searchheader .btnSearch,
+  header .xans-layout-searchheader .btnSearch.active {
+    color: #2e2e2e;
+    border: 2px solid #2e2e2e;
+    background: url("/web/img/22_mcn_renewal_img/main/search_black.png")
+      no-repeat center/cover;
+  }
+
+  header .xans-layout-searchheader .btnSearch,
+  header:hover .xans-layout-searchheader .btnSearch,
+  header .xans-layout-searchheader .btnSearch.active {
+    position: absolute;
+    top: 39px;
+    right: 15px;
+    border: none;
+    background-size: 23px;
+    cursor: pointer;
+  }
+
+  header:hover .xans-layout-searchheader input,
+  header .xans-layout-searchheader input.active {
+    border: 2px solid #2e2e2e !important;
+    background-color: #fff;
+  }
+</style>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "progressbar",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+  $(".activitySlide").slick({
+    dots: true,
+    infinite: true,
+    speed: 200,
+    cssEase: "linear",
+    nextArrow: false,
+    prevArrow: false,
+  });
+</script>

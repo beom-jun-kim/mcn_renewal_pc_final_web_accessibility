@@ -1,0 +1,200 @@
+/* Align */
+.ec-base-table th[scope*="row"] {
+    text-align: left;
+}
+
+.ec-base-table .left {
+    text-align: left;
+}
+
+.ec-base-table .center {
+    text-align: center;
+}
+
+.ec-base-table .right {
+    text-align: right;
+}
+
+.ec-base-table td.left {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.ec-base-table td.center {
+    text-align: center;
+}
+
+.ec-base-table td.right {
+    text-align: right;
+}
+
+.ec-base-table .top th,
+.ec-base-table .top td,
+.ec-base-table th.top,
+.ec-base-table td.top {
+    vertical-align: top;
+}
+
+.ec-base-table .middle th,
+.ec-base-table .middle td,
+.ec-base-table th.middle,
+.ec-base-table td.middle {
+    vertical-align: middle;
+}
+
+.ec-base-table .bottom th,
+.ec-base-table .bottom td,
+.ec-base-table th.bottom,
+.ec-base-table td.bottom {
+    vertical-align: bottom;
+}
+
+/* Table */
+.ec-base-table {
+    border-top: 2px solid #2e2e2e;
+    margin-top: 30px;
+    font-size: var(--small-font);
+}
+
+.ec-base-table th {
+    border-bottom: 1px solid var(--line-color);
+    padding: 1rem;
+}
+
+.ec-base-table td {
+    border-bottom: 1px solid var(--line-color);
+    padding: 1.5rem;
+    vertical-align: inherit;
+}
+
+.ec-base-table th img.icon,
+.ec-base-table td img.icon {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.ec-base-table td [class^="btn"],
+.ec-base-table td a[class^="btn"] {
+    vertical-align: baseline;
+}
+
+/* gBorderClear */
+.ec-base-table td.gBorderClear {
+    border-bottom: 0;
+}
+
+/* Table - Empty */
+.ec-base-table .message {
+    padding: 56px 0;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+    color: #6d6d6d;
+}
+
+/* Table - typeWrite */
+.ec-base-table.typeWrite th,
+.ec-base-table.typeWrite td {
+    height: auto;
+}
+
+.ec-base-table.typeWrite td [class^="btn"],
+.ec-base-table.typeWrite td a[class^="btn"] {
+    vertical-align: middle;
+}
+
+/* formMultiple */
+.ec-base-table.typeWrite .formMultiple dl,
+.ec-base-table.typeWrite .formMultiple ul {
+    width: 100%;
+}
+
+.ec-base-table.typeWrite .formMultiple dt {
+    margin: 0 0 2px 0;
+}
+
+.ec-base-table.typeWrite .formMultiple li,
+.ec-base-table.typeWrite .formMultiple dd {
+    margin: 0 0 10px 0;
+}
+
+.ec-base-table.typeWrite .formMultiple li:last-of-type,
+.ec-base-table.typeWrite .formMultiple dd:last-of-type {
+    margin-bottom: 0;
+}
+
+/* formGroup */
+.ec-base-table.typeWrite .formGroup input[type="text"],
+.ec-base-table.typeWrite .formGroup input[type="password"],
+.ec-base-table.typeWrite .formGroup select,
+.ec-base-table.typeWrite .formGroup [class^="btn"] {
+    min-width: 0;
+    margin: 0 5px;
+}
+
+.ec-base-table.typeWrite .formGroup input[type="text"]+[class^="btn"] {
+    margin-left: 5px;
+}
+
+.ec-base-table.typeWrite .formGroup:not(td) {
+    width: auto;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.ec-base-table.typeWrite .formGroup.code {
+    font-size: 20px;
+    color: #7f7f7f;
+}
+
+/* txtInfo */
+.ec-base-table.typeWrite td p.txtInfo,
+.ec-base-table.typeWrite td ul.txtInfo {
+    width: 100%;
+}
+
+/* form */
+.ec-base-table.typeWrite td input[type="text"]+[class^="btn"],
+.ec-base-table.typeWrite td input[type="password"]+[class^="btn"],
+.ec-base-table.typeWrite td input[type="text"]+a[class^="btn"],
+.ec-base-table.typeWrite td input[type="password"]+a[class^="btn"] {
+    margin-left: 10px;
+}
+
+.ec-base-table.typeWrite td label {
+    line-height: 32px;
+}
+
+/* address */
+.ec-base-table.typeWrite .ec-address {
+    width: 100%;
+}
+
+.ec-base-table.typeWrite .ec-address .btnBasic {
+    display: inline-block;
+    padding: 12px 20px;
+    height: 40px;
+    font-size: 13px;
+    box-sizing: border-box;
+    border: 1px solid #bcbcbc;
+    line-height: 1;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: middle;
+    word-spacing: -0.5px;
+    letter-spacing: 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #000;
+    background-color: #fff;
+}
+
+.ec-base-table.typeWrite .ec-address-area select {
+    display: block;
+    margin: 10px 0 0;
+}
+
+.ec-base-table.typeWrite .ec-address-area select:first-of-type {
+    margin-top: 0;
+}

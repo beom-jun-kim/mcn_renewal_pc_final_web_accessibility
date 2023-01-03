@@ -1,0 +1,12 @@
+.xans-board-title p.imgArea { margin:0 0 20px; }
+.xans-board-commentdel .password input { width:100%; max-width:293px; }
+.titleArea {margin-top: 150px;}
+
+.xans-board-commentdeletepackage {
+    margin: 150px auto 80px;
+    max-width: 1300px;
+}
+
+.xans-board-commentdeletepackage .ec-base-button {
+    text-align: center;
+}
